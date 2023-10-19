@@ -1,10 +1,10 @@
-name: CI
+name: UCtestCI
 
 on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubicloud
 
     steps:
     - uses: actions/checkout@v2
